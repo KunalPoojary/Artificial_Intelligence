@@ -15,7 +15,7 @@ const loginPage =()=>{
       <Spotlight />
       <div className=" p-4 max-w-7xl  mx-auto relative z-10  w-full pt-20 md:pt-0">
         <h1 className="text-5xl md:text-[200px] font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
-          EXE RAG
+          SUPPORT .EXE
         </h1>
         <p className="mt-4 font-normal text-base text-neutral-300 max-w-lg text-center mx-auto">
           A subtle yet effective spotlight effect, because the previous version
@@ -25,11 +25,6 @@ const loginPage =()=>{
         <div         onClick={loginPage} >
         <HoverBorderGradientDemo/>
         </div>
-        <Button
-        variant="secondary"
-        className="m-5 flex px-12 py-6 border-white border-2 justify-center text-center text-xl rounded-full">
-          Documentation
-        </Button>
       </div>
       </div>
     </div>

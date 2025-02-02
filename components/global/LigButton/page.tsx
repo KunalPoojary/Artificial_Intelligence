@@ -11,7 +11,7 @@ export function HoverBorderGradientDemo() {
         as="button"
         className="dark:bg-black text-2xl px-14 py-3 bg-white text-black dark:text-white flex items-center space-x-2"
       >
-        <span>Get Started</span>
+        <span>Home</span>
       </HoverBorderGradient>
     </div>
   );

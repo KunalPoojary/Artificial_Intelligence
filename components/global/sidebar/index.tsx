@@ -8,6 +8,7 @@ import {
 } from "@tabler/icons-react";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import { ImUpload } from "react-icons/im";
 import Image from "next/image";
 import { cn } from "@/lib/utils";
 import { Sidebar, SidebarBody, SidebarLink } from "@/components/ui/sidebar";
@@ -33,10 +34,10 @@ export function SidebarDemo({children}:Props) {
       ),
     },
     {
-      label: "Settings",
-      href: "/settings",
+      label: "Upload",
+      href: "/upload",
       icon: (
-        <IconSettings className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" />
+        <ImUpload className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" />
       ),
     },
     {
